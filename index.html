@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>SpendLite V1 - Debit Only</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="app-header"><h1>SpendLite V1 (Debits only)</h1></div>
+  <main>
+    <div class="card">
+      <h2>1) Load Transactions (CSV)</h2>
+      <input type="file" id="csvFile">
+    </div>
+    <div class="card"><h2>2) Category Totals</h2><div id="categoryTotals"></div></div>
+    <div class="card"><h2>3) Transactions</h2><div id="monthTotals"></div><table id="transactionsTable"></table></div>
+  </main>
+</body>
+</html>
